@@ -1,4 +1,5 @@
 // pages/login.js
+import Footer from '@/components/Footer/Footer';
 import Header from '@/components/Header/Header';
 import Link from 'next/link';
 
@@ -87,6 +88,7 @@ export default function Login() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

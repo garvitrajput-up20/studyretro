@@ -1,4 +1,5 @@
 // pages/register.js
+import Footer from '@/components/Footer/Footer';
 import Header from '@/components/Header/Header';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
@@ -97,6 +98,7 @@ export default function Register() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
